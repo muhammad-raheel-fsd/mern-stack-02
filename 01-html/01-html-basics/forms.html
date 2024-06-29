@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+
+  <!-- Phishing -->
+
+  <body>
+    <form autocomplete="off" novalidate enctype="">
+      <label for="username">Enter your name: </label>
+      <input
+        required
+        type="text"
+        placeholder="Enter your name"
+        id="username"
+        readonly
+      />
+      <br />
+
+      <!-- style="display: none;" -->
+
+      <label for="password">Enter your password: </label>
+      <input
+        required
+        type="password"
+        placeholder="Enter your password"
+        id="password"
+      />
+      <br />
+
+      <label for="email">Enter your email: </label>
+      <input required type="email" placeholder="Enter your email" id="email" />
+      <br />
+
+      <label>Your gender: </label>
+
+      <label for="male">Male</label>
+      <input required type="radio" id="male" name="gender" />
+
+      <label for="female">Female</label>
+      <input required type="radio" id="female" name="gender" /> <br />
+
+      <label>Hobbies: </label>
+
+      <label for="cooking">Cooking</label>
+      <input type="checkbox" name="hobbies" id="cooking" />
+
+      <label for="cycling">Cycling</label>
+      <input type="checkbox" name="hobbies" id="cycling" /> <br />
+
+      <label for="review">Put your review here: </label> <br />
+      <textarea name="" id="review" placeholder="Put your review here..."> </textarea><br>
+
+      <label for="select">Select City</label>
+      <select id="select" 
+      multiple
+      >
+        <option >Burewala</option>
+        <option >Lahore</option>
+        <option >Vehari</option>
+      </select>
+
+      <label for="dob">Date of birth</label>
+      <!-- <input type="date"> -->
+      <!-- <input type="datetime"> -->
+      <input type="datetime-local">
+
+      <input type="file">
+
+
+     <br> <input type="submit" value="Submit your details" />
+     <br> <input type="reset" value="Reset" />
+
+     <button>Submit</button>
+
+     <input type="checkbox" id="" name="checkbox">
+     <input type="checkbox" id="" name="checkbox">
+     <input type="checkbox" id="" name="checkbox">
+     <input type="checkbox" id="" name="checkbox">
+     <input type="checkbox" id="" name="checkbox">
+
+    </form>
+  </body>
+</html>

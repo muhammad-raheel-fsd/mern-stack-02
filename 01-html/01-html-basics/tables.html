@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <!-- <table border="1">
+      <thead style="background-color: yellow">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Contact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Raheel</td>
+          <td>40</td>
+          <td>Male</td>
+          <td>1234567890</td>
+        </tr>
+        <tr>
+          <td>Raheel</td>
+          <td>40</td>
+          <td>Male</td>
+          <td>1234567890</td>
+        </tr>
+        <tr>
+          <td>Raheel</td>
+          <td>40</td>
+          <td>Male</td>
+          <td>1234567890</td>
+        </tr>
+      </tbody>
+    </table> -->
+
+    <!-- Table spans (rows / columns) -->
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Contact</th>
+          <th>ID</th>
+          <th colspan="4">Actions</th>
+        </tr>
+
+        <tr>
+          <td>Kaleem</td>
+          <td rowspan="2">18</td>
+          <td>Male</td>
+          <td>1234567890</td>
+          <td>12345</td>
+          <td>Delete</td>
+          <td>Update</td>
+          <td>View</td>
+          <td>Share</td>
+        </tr>
+        <tr>
+          <td>Kaleem</td>
+          <!-- <td>18</td> -->
+          <!-- <td>Male</td> -->
+          <td>1234567890</td>
+          <td colspan="-2">12345</td>
+        </tr>
+        <tr>
+          <td>Kaleem</td>
+          <td>18</td>
+          <!-- <td>Male</td> -->
+          <td colspan="2">1234567890</td>
+          <td rowspan="2">12345</td>
+        </tr>
+        <tr>
+          <td>Kaleem</td>
+          <td>18</td>
+          <td>Male</td>
+          <td>1234567890</td>
+          <!-- <td>12345</td> -->
+        </tr>
+      </thead>
+    </table>
+  </body>
+</html>
