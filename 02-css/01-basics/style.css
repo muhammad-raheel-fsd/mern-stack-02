@@ -1,0 +1,29 @@
+/* Css selectors */
+
+/* 1. Element selector */
+
+h2 {
+  background-color: aqua;
+}
+
+/* 2. id selector */
+
+#heading-3{
+    background-color: orangered;
+}
+
+/* 3. class selector */
+
+.heading-5{
+    background-color: olivedrab;
+}
+
+/* 4. universal selector */
+
+*{
+    background-color: tomato;
+}
+
+/* h2 {
+    background-color: black;
+  } */
