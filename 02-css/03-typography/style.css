@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  /* margin-top: 100px; */
+  /* text-align: justify; */
+  text-align: center;
+  /* text-decoration: overline; */
+  text-decoration: underline;
+  color: red;
+  /* text-transform: capitalize; */
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+  letter-spacing: 3px;
+  word-spacing: 20px;
+  line-height: 100px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "verdana";
+}
+
+p span {
+  font-size: x-large;
+}
+
+span {
+  text-wrap: nowrap;
+  margin: 20px;
+  display: inline-block;
+  /* text-shadow: 10px 10px 2px red; */
+  text-shadow: -10px -10px 2px red;
+  box-shadow: 0px 0px 20px 20px red;
+  box-shadow: 0px 0px 20px red, 0px 0px 20px red, 0px 0px 20px red;
+  /* box-shadow: inset 0px 0px 5px 5px red; */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  border: 2px solid red;
+  box-shadow: 0px 0px 10px 5px red;
+}
