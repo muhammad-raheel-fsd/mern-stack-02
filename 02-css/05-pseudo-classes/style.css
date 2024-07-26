@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* pseudo classes */
+/* Link */
+/* Visited */
+/* Hover */
+/* Active */
+
+a:link {
+  background-color: tomato;
+  padding: 10px 20px;
+
+  margin-left: 100px;
+  margin-top: 100px;
+
+  display: inline-block;
+
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: green;
+}
+
+a:active {
+  background-color: yellow;
+}
+a:visited {
+  background-color: blue;
+}
+
+a:link,
+a:visited {
+  background-color: tomato;
+  padding: 10px 20px;
+
+  margin-left: 100px;
+  margin-top: 100px;
+
+  display: inline-block;
+
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:active {
+  background-color: green;
+}
